@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "declaration": true,
+        "sourceMap": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "buildOnSave": true,
+    "compileOnSave": true,
+    "exclude": [
+        ".**/*.d.ts",
+        "./node_modules/**/*.*"
+    ],
+    "filesGlob": [
+        "./exercises/**/*.ts",
+        "./typings/index.d.ts"
+    ],
+    "files": [
+        "./exercises/sample-test.spec.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
