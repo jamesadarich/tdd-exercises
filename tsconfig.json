@@ -21,9 +21,11 @@
         "./typings/index.d.ts"
     ],
     "files": [
+        "./exercises/fizz-buzz/fizz-buzz.d.ts",
         "./exercises/fizz-buzz/fizz-buzz.ts",
         "./exercises/fizz-buzz/test.spec.d.ts",
-        "./exercises/sample-test.spec.d.ts"
+        "./exercises/sample-test.spec.d.ts",
+        "./exercises/string-calculator/string-calculator.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
