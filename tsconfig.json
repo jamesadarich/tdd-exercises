@@ -21,7 +21,9 @@
         "./typings/index.d.ts"
     ],
     "files": [
-        "./exercises/sample-test.spec.ts"
+        "./exercises/fizz-buzz/fizz-buzz.ts",
+        "./exercises/fizz-buzz/test.spec.d.ts",
+        "./exercises/sample-test.spec.d.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
