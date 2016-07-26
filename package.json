@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "npm run test-fizz-buzz & npm run test-string-calculator",
     "test-fizz-buzz": "alsatian ./exercises/fizz-buzz/tests/**/*.js",
     "test-string-calculator": "alsatian ./exercises/string-calculator/tests/**/*.js"
