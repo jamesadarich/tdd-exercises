@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/jamesrichford/tdd-exercises#readme",
   "dependencies": {
-    "alsatian": "^1.0.0-alpha.4"
+    "alsatian": "^1.0.0-alpha.6"
   },
   "devDependencies": {
     "typescript": "^1.8.10",
