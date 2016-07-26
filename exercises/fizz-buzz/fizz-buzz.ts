@@ -1,7 +1,3 @@
-export default class FizzBuzz {
-
-  public generate(start: number, length: number): string {
-    throw new Error("not implemented");
-  }
-
+export default function FizzBuzz(start: number, length: number): string {
+   throw new Error("not implemented");
 }

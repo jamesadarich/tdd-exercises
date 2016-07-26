@@ -22,7 +22,10 @@
     ],
     "files": [
         "./exercises/fizz-buzz/fizz-buzz.ts",
-        "./exercises/string-calculator/string-calculator.ts"
+        "./exercises/fizz-buzz/tests/fizz-buzz.spec.ts",
+        "./exercises/string-calculator/string-calculator.d.ts",
+        "./exercises/string-calculator/string-calculator.ts",
+        "./exercises/string-calculator/tests/string-calculator.spec.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
