@@ -5,6 +5,6 @@ export class FizzBuzzTestFixture {
 
    @Test()
    public fizzBuzzDoesNotThrowAnError() {
-      Expect(FizzBuzz(1, 1)).not.toThrow();
+      Expect(() => FizzBuzz(1, 1)).not.toThrow();
    }
 }

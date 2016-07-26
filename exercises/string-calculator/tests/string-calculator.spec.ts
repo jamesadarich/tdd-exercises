@@ -7,6 +7,6 @@ export class StringCalculatorTestFixture {
    public fizzBuzzDoesNotThrowAnError() {
       let stringCalculator = new StringCalculator();
 
-      Expect(stringCalculator.calculate("1 + 1")).not.toThrow();
+      Expect(() => stringCalculator.calculate("1 + 1")).not.toThrow();
    }
 }
