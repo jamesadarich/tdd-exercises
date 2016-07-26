@@ -23,6 +23,7 @@
     "alsatian": "^1.0.0-alpha.4"
   },
   "devDependencies": {
+    "typescript": "^1.8.10",
     "typings": "^1.3.0"
   }
 }
