@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run test-fizz-buzz & npm run test-string-calculator",
     "test-fizz-buzz": "alsatian ./exercises/fizz-buzz/tests/**/*.js",
     "test-string-calculator": "alsatian ./exercises/string-calculator/tests/**/*.js"
   },
